@@ -19,7 +19,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w16" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="52 33 18 18" />
                 </StartBlock>
                 <ConfigurableMethodCall Id="n4" Bounds="1121 114 194 91" Target="MoveTankDistance\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
+                    <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="67">
@@ -65,7 +65,7 @@
                         <Terminal Id="Coast\ motors" Direction="Output" Wire="w14" DataType="Boolean" Hotspot="0.5 1" Bounds="72 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
-                <Wire Id="w13" Joints="N(n16:Speed) v(45) h(826) N(n4:Speed\ Right) B(0) v(53) h(469) N(n7:X)" />
+                <Wire Id="w13" Joints="N(n16:Speed) v(53) h(469) N(n7:X) B(0) v(45) h(826) N(n4:Speed\ Right)" />
                 <Wire Id="w14" Joints="N(n16:Coast\ motors) v(62) h(857) N(n4:Brake\ At\ End)" />
                 <ConfigurableMethodCall Id="n14" Bounds="958 114 163 91" Target="Arithmetic_Divide\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1">
