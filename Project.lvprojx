@@ -6,135 +6,135 @@
                 <ProjectReference ReferenceName="NationalInstruments.VI.VirtualMachine.Runtime, Version=0.0.0.0" ReferencePath="" />
                 <ProjectReference ReferenceName="NationalInstruments.LabVIEW.CoreRuntime, Version=0.0.0.0" ReferencePath="" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.GuidedHelpFramework.Model.GuidedHelp" Name="Activity\.x3a" RelativeStoragePath="Activity.x3a" StoragePath="Activity.x3a" />
-                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="straight_test\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="straight_test.ev3p" StoragePath="straight_test.ev3p" />
-                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Straight_test_2\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Straight_test_2.ev3p" StoragePath="Straight_test_2.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Measure\ cm\ per\ 1000\ deg\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Measure cm per 1000 deg.ev3p" StoragePath="Measure cm per 1000 deg.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Mission\ Chooser\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Mission Chooser.ev3p" StoragePath="Mission Chooser.ev3p" />
+                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Straight_test_2\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Straight_test_2.ev3p" StoragePath="Straight_test_2.ev3p" />
+                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="straight_test\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="straight_test.ev3p" StoragePath="straight_test.ev3p" />
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="ActivityAssets\.laz" />
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference" DocumentTypeIdentifier="NationalInstruments.X3.App.X3FolderLoaderDefinition" Name="vi\.lib_" />
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="___ProjectTitle" />
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="___CopyrightYear" />
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference" DocumentTypeIdentifier="NationalInstruments.X3.App.X3FolderLoaderDefinition" Name="vi\.lib_PBR" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="FollowUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="FollowUntilBlack.ev3p" StoragePath="FollowUntilBlack.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="FollowUntilBlack\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VeerRightUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="VeerRightUntilBlack.ev3p" StoragePath="VeerRightUntilBlack.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="VeerRightUntilBlack\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VeerLeftUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="VeerLeftUntilBlack.ev3p" StoragePath="VeerLeftUntilBlack.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="VeerLeftUntilBlack\.ev3p\.mbxml" />
                 <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="CailbrateLight\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="CailbrateLight.ev3p" StoragePath="CailbrateLight.ev3p">
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="CailbrateLight\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ReadNumber\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="ReadNumber.ev3p" StoragePath="ReadNumber.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="ReadNumber\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PivotRight\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="PivotRight.ev3p" StoragePath="PivotRight.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="PivotRight\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="SpinUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="SpinUntilBlack.ev3p" StoragePath="SpinUntilBlack.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="SpinUntilBlack\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PivotRightUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="PivotRightUntilBlack.ev3p" StoragePath="PivotRightUntilBlack.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="PivotRightUntilBlack\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="WavyLineFollowCore\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="WavyLineFollowCore.ev3p" StoragePath="WavyLineFollowCore.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="WavyLineFollowCore\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PivotLeftUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="PivotLeftUntilBlack.ev3p" StoragePath="PivotLeftUntilBlack.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="PivotLeftUntilBlack\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoBackUntilTouch\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoBackUntilTouch.ev3p" StoragePath="GoBackUntilTouch.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoBackUntilTouch\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoUntilColor\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoUntilColor.ev3p" StoragePath="GoUntilColor.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoUntilColor\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Setup\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Setup.ev3p" StoragePath="Setup.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="Setup\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="NewLineFollowCore\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="NewLineFollowCore.ev3p" StoragePath="NewLineFollowCore.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="NewLineFollowCore\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoBackTryAgainOld\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoBackTryAgainOld.ev3p" StoragePath="GoBackTryAgainOld.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoBackTryAgainOld\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoUntilBlack.ev3p" StoragePath="GoUntilBlack.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoUntilBlack\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="WavyFollowLineCm\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="WavyFollowLineCm.ev3p" StoragePath="WavyFollowLineCm.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="WavyFollowLineCm\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="FollowLineCm\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="FollowLineCm.ev3p" StoragePath="FollowLineCm.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="FollowLineCm\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoUntilBothColor\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoUntilBothColor.ev3p" StoragePath="GoUntilBothColor.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoUntilBothColor\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoCentimeters\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoCentimeters.ev3p" StoragePath="GoCentimeters.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoCentimeters\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VeerRightCm\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="VeerRightCm.ev3p" StoragePath="VeerRightCm.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="VeerRightCm\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PivotLeft\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="PivotLeft.ev3p" StoragePath="PivotLeft.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="PivotLeft\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="LineFollowerCore\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="LineFollowerCore.ev3p" StoragePath="LineFollowerCore.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="LineFollowerCore\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VeerLeftCm\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="VeerLeftCm.ev3p" StoragePath="VeerLeftCm.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="VeerLeftCm\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="SpinTurn\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="SpinTurn.ev3p" StoragePath="SpinTurn.ev3p">
-                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
-                </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="SpinTurn\.ev3p\.mbxml" />
                 <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ConvertCmToDeg\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="ConvertCmToDeg.ev3p" StoragePath="ConvertCmToDeg.ev3p">
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="ConvertCmToDeg\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoBackTouchTryAgain2\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoBackTouchTryAgain2.ev3p" StoragePath="GoBackTouchTryAgain2.ev3p">
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="FollowLineCm\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="FollowLineCm.ev3p" StoragePath="FollowLineCm.ev3p">
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoBackTouchTryAgain2\.ev3p\.mbxml" />
-                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="SquareUpOnLine\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="SquareUpOnLine.ev3p" StoragePath="SquareUpOnLine.ev3p">
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="FollowLineCm\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="FollowUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="FollowUntilBlack.ev3p" StoragePath="FollowUntilBlack.ev3p">
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
-                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="SquareUpOnLine\.ev3p\.mbxml" />
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="FollowUntilBlack\.ev3p\.mbxml" />
                 <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoBackTouchTryAgain\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoBackTouchTryAgain.ev3p" StoragePath="GoBackTouchTryAgain.ev3p">
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoBackTouchTryAgain\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoBackTouchTryAgain2\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoBackTouchTryAgain2.ev3p" StoragePath="GoBackTouchTryAgain2.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoBackTouchTryAgain2\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoBackTryAgainOld\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoBackTryAgainOld.ev3p" StoragePath="GoBackTryAgainOld.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoBackTryAgainOld\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoBackUntilTouch\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoBackUntilTouch.ev3p" StoragePath="GoBackUntilTouch.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoBackUntilTouch\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoCentimeters\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoCentimeters.ev3p" StoragePath="GoCentimeters.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoCentimeters\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoUntilBlack.ev3p" StoragePath="GoUntilBlack.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoUntilBlack\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoUntilBothColor\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoUntilBothColor.ev3p" StoragePath="GoUntilBothColor.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoUntilBothColor\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GoUntilColor\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GoUntilColor.ev3p" StoragePath="GoUntilColor.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoUntilColor\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="LineFollowerCore\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="LineFollowerCore.ev3p" StoragePath="LineFollowerCore.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="LineFollowerCore\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="NewLineFollowCore\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="NewLineFollowCore.ev3p" StoragePath="NewLineFollowCore.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="NewLineFollowCore\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PivotLeft\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="PivotLeft.ev3p" StoragePath="PivotLeft.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="PivotLeft\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PivotLeftUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="PivotLeftUntilBlack.ev3p" StoragePath="PivotLeftUntilBlack.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="PivotLeftUntilBlack\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PivotRight\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="PivotRight.ev3p" StoragePath="PivotRight.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="PivotRight\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PivotRightUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="PivotRightUntilBlack.ev3p" StoragePath="PivotRightUntilBlack.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="PivotRightUntilBlack\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ReadNumber\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="ReadNumber.ev3p" StoragePath="ReadNumber.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="ReadNumber\.ev3p\.mbxml" />
                 <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="SaveNumber\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="SaveNumber.ev3p" StoragePath="SaveNumber.ev3p">
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="SaveNumber\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Setup\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Setup.ev3p" StoragePath="Setup.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="Setup\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="SpinTurn\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="SpinTurn.ev3p" StoragePath="SpinTurn.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="SpinTurn\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="SpinUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="SpinUntilBlack.ev3p" StoragePath="SpinUntilBlack.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="SpinUntilBlack\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="SquareUpOnLine\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="SquareUpOnLine.ev3p" StoragePath="SquareUpOnLine.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="SquareUpOnLine\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VeerLeftCm\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="VeerLeftCm.ev3p" StoragePath="VeerLeftCm.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="VeerLeftCm\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VeerLeftUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="VeerLeftUntilBlack.ev3p" StoragePath="VeerLeftUntilBlack.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="VeerLeftUntilBlack\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VeerRightCm\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="VeerRightCm.ev3p" StoragePath="VeerRightCm.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="VeerRightCm\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VeerRightUntilBlack\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="VeerRightUntilBlack.ev3p" StoragePath="VeerRightUntilBlack.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="VeerRightUntilBlack\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="WavyFollowLineCm\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="WavyFollowLineCm.ev3p" StoragePath="WavyFollowLineCm.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="WavyFollowLineCm\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="WavyLineFollowCore\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="WavyLineFollowCore.ev3p" StoragePath="WavyLineFollowCore.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="WavyLineFollowCore\.ev3p\.mbxml" />
             </Target>
             <ProjectSettings>
                 <NamedGlobalData xmlns="http://www.ni.com/X3NamedGlobalData.xsd">
@@ -207,153 +207,9 @@
             <Location />
         </LoaderDefinition>
     </Namespace>
-    <Namespace Name="FollowUntilBlack\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>FollowUntilBlack.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="VeerRightUntilBlack\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>VeerRightUntilBlack.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="VeerLeftUntilBlack\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>VeerLeftUntilBlack.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
     <Namespace Name="CailbrateLight\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>CailbrateLight.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="ReadNumber\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>ReadNumber.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="PivotRight\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>PivotRight.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="SpinUntilBlack\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>SpinUntilBlack.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="PivotRightUntilBlack\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>PivotRightUntilBlack.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="WavyLineFollowCore\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>WavyLineFollowCore.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="PivotLeftUntilBlack\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>PivotLeftUntilBlack.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="GoBackUntilTouch\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>GoBackUntilTouch.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="GoUntilColor\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>GoUntilColor.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="Setup\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>Setup.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="NewLineFollowCore\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>NewLineFollowCore.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="GoBackTryAgainOld\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>GoBackTryAgainOld.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="GoUntilBlack\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>GoUntilBlack.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="WavyFollowLineCm\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>WavyFollowLineCm.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="FollowLineCm\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>FollowLineCm.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="GoUntilBothColor\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>GoUntilBothColor.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="GoCentimeters\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>GoCentimeters.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="VeerRightCm\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>VeerRightCm.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="PivotLeft\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>PivotLeft.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="LineFollowerCore\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>LineFollowerCore.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="VeerLeftCm\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>VeerLeftCm.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath />
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="SpinTurn\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>SpinTurn.ev3p.mbxml</RelativeStoragePath>
             <StoragePath />
         </ExternalFile>
     </Namespace>
@@ -363,15 +219,15 @@
             <StoragePath />
         </ExternalFile>
     </Namespace>
-    <Namespace Name="GoBackTouchTryAgain2\.ev3p\.mbxml">
+    <Namespace Name="FollowLineCm\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>GoBackTouchTryAgain2.ev3p.mbxml</RelativeStoragePath>
+            <RelativeStoragePath>FollowLineCm.ev3p.mbxml</RelativeStoragePath>
             <StoragePath />
         </ExternalFile>
     </Namespace>
-    <Namespace Name="SquareUpOnLine\.ev3p\.mbxml">
+    <Namespace Name="FollowUntilBlack\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>SquareUpOnLine.ev3p.mbxml</RelativeStoragePath>
+            <RelativeStoragePath>FollowUntilBlack.ev3p.mbxml</RelativeStoragePath>
             <StoragePath />
         </ExternalFile>
     </Namespace>
@@ -381,9 +237,153 @@
             <StoragePath />
         </ExternalFile>
     </Namespace>
+    <Namespace Name="GoBackTouchTryAgain2\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>GoBackTouchTryAgain2.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="GoBackTryAgainOld\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>GoBackTryAgainOld.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="GoBackUntilTouch\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>GoBackUntilTouch.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="GoCentimeters\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>GoCentimeters.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="GoUntilBlack\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>GoUntilBlack.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="GoUntilBothColor\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>GoUntilBothColor.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="GoUntilColor\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>GoUntilColor.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="LineFollowerCore\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>LineFollowerCore.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="NewLineFollowCore\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>NewLineFollowCore.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="PivotLeft\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>PivotLeft.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="PivotLeftUntilBlack\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>PivotLeftUntilBlack.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="PivotRight\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>PivotRight.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="PivotRightUntilBlack\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>PivotRightUntilBlack.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="ReadNumber\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>ReadNumber.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
     <Namespace Name="SaveNumber\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>SaveNumber.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="Setup\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>Setup.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="SpinTurn\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>SpinTurn.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="SpinUntilBlack\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>SpinUntilBlack.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="SquareUpOnLine\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>SquareUpOnLine.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="VeerLeftCm\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>VeerLeftCm.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="VeerLeftUntilBlack\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>VeerLeftUntilBlack.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="VeerRightCm\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>VeerRightCm.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="VeerRightUntilBlack\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>VeerRightUntilBlack.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="WavyFollowLineCm\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>WavyFollowLineCm.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="WavyLineFollowCore\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>WavyLineFollowCore.ev3p.mbxml</RelativeStoragePath>
             <StoragePath />
         </ExternalFile>
     </Namespace>
