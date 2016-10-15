@@ -35,7 +35,7 @@
                     </ConfigurableWhileLoop.BuiltInMethod>
                     <ConfigurableWhileLoop.BuiltInMethod CallType="StopCondition">
                         <ConfigurableMethodCall Id="n1" Bounds="180 56 116 91" Target="RotationDegreesCompare\.vix">
-                            <ConfigurableMethodTerminal ConfiguredValue="1.B">
+                            <ConfigurableMethodTerminal ConfiguredValue="1.A">
                                 <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                             </ConfigurableMethodTerminal>
                             <ConfigurableMethodTerminal ConfiguredValue="5">
@@ -107,7 +107,7 @@
                 <Wire Id="w13" Joints="N(n17:Distance\ \(cm\)) v(22) h(251) N(n7:Distance\ \(cm\))" />
                 <Wire Id="w16" Joints="N(n1:SequenceOut) N(n15:SequenceIn)" />
                 <ConfigurableMethodCall Id="n15" Bounds="504 0 75 91" Target="RotationReset\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="1.B">
+                    <ConfigurableMethodTerminal ConfiguredValue="1.A">
                         <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w16" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
@@ -115,7 +115,7 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w17" Joints="N(n15:SequenceOut) N(n7:SequenceIn)" />
                 <ConfigurableMethodCall Id="n19" Bounds="1041 0 101 91" Target="MoveStop\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
+                    <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
