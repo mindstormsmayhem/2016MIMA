@@ -65,7 +65,7 @@
                         <Terminal Id="Coast\ motors" Direction="Output" Wire="w14" DataType="Boolean" Hotspot="0.5 1" Bounds="72 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
-                <Wire Id="w13" Joints="N(n16:Speed) v(45) h(841) N(n4:Speed\ Left) B(0) v(53) h(515) N(n7:X)" />
+                <Wire Id="w13" Joints="N(n16:Speed) v(53) h(515) N(n7:X) B(0) v(45) h(841) N(n4:Speed\ Left)" />
                 <Wire Id="w14" Joints="N(n16:Coast\ motors) v(64) h(903) N(n4:Brake\ At\ End)" />
                 <ConfigurableMethodCall Id="n14" Bounds="561 0 101 91" Target="X3\.Lib:GlobalGetSingle">
                     <ConfigurableMethodTerminal>
