@@ -6,16 +6,21 @@
                 <ProjectReference ReferenceName="NationalInstruments.VI.VirtualMachine.Runtime, Version=0.0.0.0" ReferencePath="" />
                 <ProjectReference ReferenceName="NationalInstruments.LabVIEW.CoreRuntime, Version=0.0.0.0" ReferencePath="" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.GuidedHelpFramework.Model.GuidedHelp" Name="Activity\.x3a" RelativeStoragePath="Activity.x3a" StoragePath="Activity.x3a" />
+                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="12112\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="12112.ev3p" StoragePath="12112.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Forward\ onto\ glory\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Forward onto glory.ev3p" StoragePath="Forward onto glory.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Joshua\ stay\ straight\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Joshua stay straight.ev3p" StoragePath="Joshua stay straight.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Measure\ cm\ per\ 1000\ deg\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Measure cm per 1000 deg.ev3p" StoragePath="Measure cm per 1000 deg.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Mission\ Chooser\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Mission Chooser.ev3p" StoragePath="Mission Chooser.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program.ev3p" StoragePath="Program.ev3p" />
+                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program-noah\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program-noah.ev3p" StoragePath="Program-noah.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program10\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program10.ev3p" StoragePath="Program10.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program2\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program2.ev3p" StoragePath="Program2.ev3p" />
+                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program2-noah\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program2-noah.ev3p" StoragePath="Program2-noah.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program3\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program3.ev3p" StoragePath="Program3.ev3p" />
+                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program3-noah\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program3-noah.ev3p" StoragePath="Program3-noah.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program4\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program4.ev3p" StoragePath="Program4.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program5\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program5.ev3p" StoragePath="Program5.ev3p" />
+                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program5-noah\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program5-noah.ev3p" StoragePath="Program5-noah.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program6\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program6.ev3p" StoragePath="Program6.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program7\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program7.ev3p" StoragePath="Program7.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program8\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Program8.ev3p" StoragePath="Program8.ev3p" />
@@ -28,6 +33,8 @@
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="calibrate\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="calibrate.ev3p" StoragePath="calibrate.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="movestraight\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="movestraight.ev3p" StoragePath="movestraight.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="straight_test\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="straight_test.ev3p" StoragePath="straight_test.ev3p" />
+                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="test.ev3p" StoragePath="test.ev3p" />
+                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test\ 2\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="test 2.ev3p" StoragePath="test 2.ev3p" />
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="ActivityAssets\.laz" />
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference" DocumentTypeIdentifier="NationalInstruments.X3.App.X3FolderLoaderDefinition" Name="vi\.lib_" />
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="___ProjectTitle" />
@@ -81,6 +88,10 @@
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoUntilColor\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GyroTurnOld\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="GyroTurnOld.ev3p" StoragePath="GyroTurnOld.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GyroTurnOld\.ev3p\.mbxml" />
                 <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="LineFollowerCore\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="LineFollowerCore.ev3p" StoragePath="LineFollowerCore.ev3p">
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
@@ -302,6 +313,12 @@
     <Namespace Name="GoUntilColor\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>GoUntilColor.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="GyroTurnOld\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>GyroTurnOld.ev3p.mbxml</RelativeStoragePath>
             <StoragePath />
         </ExternalFile>
     </Namespace>

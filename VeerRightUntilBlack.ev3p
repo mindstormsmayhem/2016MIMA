@@ -64,7 +64,7 @@
                         <Terminal Id="SequenceOut" Direction="Output" Wire="w20" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                     </ConfigurableMethodCall>
                     <ConfigurableMethodCall Id="n4" Bounds="474 41 132 91" Target="MoveTankMode\.vix">
-                        <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
+                        <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                             <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                         </ConfigurableMethodTerminal>
                         <ConfigurableMethodTerminal ConfiguredValue="67">
@@ -217,7 +217,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w21" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w15" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <Wire Id="w20" Joints="N(n14:Result) v(148) h(834) N(b19:n2) B(0) v(140) h(508) N(b17:n2)" />
+                <Wire Id="w20" Joints="N(n14:Result) v(140) h(508) N(b17:n2) B(0) v(148) h(834) N(b19:n2)" />
                 <Wire Id="w15" Joints="N(n14:SequenceOut) N(n5:SequenceIn)" />
                 <Wire Id="w21" Joints="N(n1:SequenceOut) N(n14:SequenceIn)" />
                 <ConfigurableMegaAccessor Id="n21" Bounds="50 208 80 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Input">
