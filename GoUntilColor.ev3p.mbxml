@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_022_Motors2">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description>Go until a chosen color is seen</Description>
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="Speed" DisplayName="Speed" Direction="Input" Identification="Identification_209_CurrentPower.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="Right sensor?" DisplayName="Right sensor?" Direction="Input" Identification="Identification_007_SensorPort_3.png" DataType="Boolean" DefaultValue="True" />
+        <ParamInfo Name="Color" DisplayName="Color" Direction="Input" Identification="Identification_501_MeasuredColor.png" DataType="Single[]" DefaultValue="[1]" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
