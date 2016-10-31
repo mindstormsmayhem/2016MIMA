@@ -22,7 +22,7 @@
                         <Terminal Id="X" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="1">
-                        <Terminal Id="Y" Direction="Input" Wire="w18" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
+                        <Terminal Id="Y" Direction="Input" Wire="w12" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal>
                         <Terminal Id="Result" Direction="Output" Wire="w15" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
@@ -32,7 +32,7 @@
                 </ConfigurableMethodCall>
                 <ConfigurableMethodCall Id="n10" Bounds="515 0 101 91" Target="X3\.Lib:GlobalGetSingle">
                     <ConfigurableMethodTerminal>
-                        <Terminal Id="valueOut" Direction="Output" Wire="w18" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
+                        <Terminal Id="valueOut" Direction="Output" Wire="w12" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="cm per 1000 deg">
                         <Terminal Id="name" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
@@ -41,6 +41,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w11" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w11" Joints="N(n10:SequenceOut) N(n8:SequenceIn)" />
+                <Wire Id="w12" Joints="N(n10:valueOut) v(22) h(132) N(n8:Y)" />
                 <ConfigurableMethodCall Id="n13" Bounds="779 0 163 91" Target="Arithmetic_Multiply\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1">
                         <Terminal Id="X" Direction="Input" Wire="w15" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
@@ -55,6 +56,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w14" Joints="N(n8:SequenceOut) N(n13:SequenceIn)" />
+                <Wire Id="w15" Joints="N(n8:Result) v(22) h(101) N(n13:X)" />
                 <ConfigurableMegaAccessor Id="n14" Bounds="308 0 49 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Input">
                     <ConfigurableMethodTerminal>
                         <Terminal Id="Distance\ \(cm\)" Direction="Output" Wire="w16" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
@@ -65,11 +67,9 @@
                         <Terminal Id="Robot\ degrees" Direction="Input" Wire="w17" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
+                <Wire Id="w16" Joints="N(n14:Distance\ \(cm\)) v(30) h(546) N(n13:Y)" />
                 <Wire Id="w17" Joints="N(n13:Result) v(22) h(81) N(n15:Robot\ degrees)" />
                 <Wire Id="w13" Joints="N(n1:SequenceOut) N(n10:SequenceIn)" />
-                <Wire Id="w16" Joints="N(n14:Distance\ \(cm\)) v(30) h(546) N(n13:Y)" />
-                <Wire Id="w15" Joints="N(n8:Result) v(22) h(101) N(n13:X)" />
-                <Wire Id="w18" Joints="N(n10:valueOut) v(22) h(132) N(n8:Y)" />
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
