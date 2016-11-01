@@ -22,8 +22,6 @@
                 <SourceFileReference StoragePath="Stay Stright cm test.ev3p" RelativeStoragePath="Stay Stright cm test.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Stay\ Stright\ cm\ test\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="straight_test.ev3p" RelativeStoragePath="straight_test.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="straight_test\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="Straight_test_2.ev3p" RelativeStoragePath="Straight_test_2.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Straight_test_2\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
-                <SourceFileReference StoragePath="test.ev3p" RelativeStoragePath="test.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
-                <SourceFileReference StoragePath="test3.ev3p" RelativeStoragePath="test3.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test3\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="Turn.ev3p" RelativeStoragePath="Turn.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Turn\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="ActivityAssets\.laz" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.X3.App.X3FolderLoaderDefinition" Name="vi\.lib_" Bindings="Envoy,DefinitionReference,EmbeddedReference"/>
@@ -184,36 +182,36 @@
             </Target>
             <ProjectSettings>
                 <NamedGlobalData xmlns="http://www.ni.com/X3NamedGlobalData.xsd">
-                    <Datum Name="Joshua Random" Kind="Variable" Type="X3Boolean"/>
                     <Datum Name="Joshua randomosity" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="current error" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="base speed for line following" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="Break" Kind="Variable" Type="X3Boolean"/>
-                    <Datum Name="chosen gray" Kind="Variable" Type="X3Numeric"/>
                     <Datum Name="cm per 1000 deg" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="left black" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="left gray" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="right saw black" Kind="Variable" Type="X3Boolean"/>
-                    <Datum Name="reflected light value" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="sensor" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="relative error" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="right black" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="robot deg" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="right white" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="speed adjustment factor" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="maximum error" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="current error" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="Joshua Random" Kind="Variable" Type="X3Boolean"/>
+                    <Datum Name="Break" Kind="Variable" Type="X3Boolean"/>
+                    <Datum Name="base speed for line following" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="chosen gray" Kind="Variable" Type="X3Numeric"/>
                     <Datum Name="other sensor" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="speed adjustment " Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="right gray" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="speed" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="motor deg for 360 robot pivot turn" Kind="Variable" Type="X3Numeric"/>
                     <Datum Name="motor deg for 360 robot spin turn" Kind="Variable" Type="X3Numeric"/>
                     <Datum Name="tryagain speed" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="speed" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="left black" Kind="Variable" Type="X3Numeric"/>
                     <Datum Name="mission number" Kind="Variable" Type="X3Numeric"/>
-                    <Datum Name="percentage for veer" Kind="Variable" Type="X3Numeric"/>
                     <Datum Name="wavy speed adjustment factor" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="left gray" Kind="Variable" Type="X3Numeric"/>
                     <Datum Name="left saw black" Kind="Variable" Type="X3Boolean"/>
                     <Datum Name="left white" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="percentage for veer" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="right saw black" Kind="Variable" Type="X3Boolean"/>
+                    <Datum Name="motor deg for 360 robot pivot turn" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="maximum error" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="speed adjustment " Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="right gray" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="reflected light value" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="robot deg" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="right black" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="right white" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="relative error" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="sensor" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="speed adjustment factor" Kind="Variable" Type="X3Numeric"/>
                 </NamedGlobalData>
                 <ProjectOrigin Path="en-US/Internal/FreePlayProgram.ev3" xmlns="http://www.ni.com/X3ProjectOrigin.xsd"/>
                 <DaisyChainMode On="False" xmlns="http://www.ni.com/X3ProjectPropertiesModel.xsd"/>
