@@ -32,7 +32,7 @@
                 </ConfigurableMethodCall>
                 <ConfigurableMethodCall Id="n6" Bounds="366 16 132 91" Target="ConvertCmToDeg\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="60">
-                        <Terminal Id="Distance\ \(cm\)" Direction="Input" Wire="w11" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
+                        <Terminal Id="Distance\ \(cm\)" Direction="Input" Wire="w14" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="InterruptsToListenFor_16B03592_CD76_4D58_8DC3_E3C3091E327A" Direction="Input" DataType="Int32" Hotspot="0.5 1" Bounds="0 0 0 0" />
@@ -51,11 +51,11 @@
                         <Terminal Id="Speed" Direction="Output" Wire="w9" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal>
-                        <Terminal Id="cm" Direction="Output" Wire="w11" DataType="Single" Hotspot="0.5 1" Bounds="41 56 30 27" />
+                        <Terminal Id="cm" Direction="Output" Wire="w14" DataType="Single" Hotspot="0.5 1" Bounds="41 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
                 <Wire Id="w9" Joints="N(n11:Speed) v(30) h(414) N(n9:Speed)" />
-                <Wire Id="w11" Joints="N(n11:cm) v(22) h(251) N(n6:Distance\ \(cm\))" />
+                <Wire Id="w14" Joints="N(n11:cm) v(22) h(251) N(n6:Distance\ \(cm\))" />
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>

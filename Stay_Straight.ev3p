@@ -108,7 +108,7 @@
                         <Terminal Id="SequenceIn" Direction="Input" Wire="w10" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                         <Terminal Id="SequenceOut" Direction="Output" Wire="w15" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                     </ConfigurableMethodCall>
-                    <Wire Id="w12" Joints="N(n5:Result) v(38) h(295) N(n9:Y) B(0) v(22) h(101) N(n7:X)" />
+                    <Wire Id="w12" Joints="N(n5:Result) v(22) h(101) N(n7:X) B(0) v(38) h(295) N(n9:Y)" />
                     <Wire Id="w10" Joints="N(n7:SequenceOut) N(n9:SequenceIn)" />
                     <ConfigurableMethodCall Id="n14" Bounds="637 41 132 91" Target="MoveTankMode\.vix">
                         <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
@@ -146,7 +146,7 @@
                         <Terminal Id="deg" Direction="Output" Wire="w12" DataType="Single" Hotspot="0.5 1" Bounds="41 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
-                <Wire Id="w10" Joints="N(n12:Speed) v(143) h(744) N(b19:n18) B(0) v(135) h(876) N(b21:n18)" />
+                <Wire Id="w10" Joints="N(n12:Speed) v(135) h(876) N(b21:n18) B(0) v(143) h(744) N(b19:n18)" />
                 <Wire Id="w12" Joints="N(n12:deg) v(151) h(1172) N(b20:n18)" />
                 <ConfigurableMethodCall Id="n11" Bounds="245 16 75 91" Target="RotationReset\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1.A">
@@ -169,7 +169,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="True">
+                    <ConfigurableMethodTerminal ConfiguredValue="False">
                         <Terminal Id="Brake\ At\ End" Direction="Input" DataType="Boolean" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
