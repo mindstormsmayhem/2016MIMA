@@ -89,7 +89,7 @@
                             </ConfigurableMethodCall>
                         </ConfigurableWhileLoop.BuiltInMethod>
                         <ConfigurableMethodCall Id="n2" Bounds="47 81 132 91" Target="MoveUnlimited\.vix">
-                            <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
+                            <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                                 <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                             </ConfigurableMethodTerminal>
                             <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -115,7 +115,7 @@
                     <ConfigurableWhileLoop.ConfigurableLoopTunnel AutoIndex="False" Id="b8" Terminals="n2=w10, D10=w8" Bounds="211 286 30 63" />
                 </ConfigurableWhileLoop>
                 <ConfigurableMethodCall Id="n7" Bounds="804 112 101 91" Target="MoveStop\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
+                    <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">

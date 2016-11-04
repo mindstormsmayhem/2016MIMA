@@ -115,7 +115,7 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w17" Joints="N(n15:SequenceOut) N(n7:SequenceIn)" />
                 <ConfigurableMethodCall Id="n19" Bounds="1041 0 101 91" Target="MoveStop\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
+                    <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">

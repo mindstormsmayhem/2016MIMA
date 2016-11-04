@@ -40,7 +40,7 @@
                         </ConfigurableMethodCall>
                     </ConfigurableWhileLoop.BuiltInMethod>
                     <ConfigurableMethodCall Id="n2" Bounds="47 41 132 91" Target="MoveUnlimited\.vix">
-                        <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
+                        <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                             <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                         </ConfigurableMethodTerminal>
                         <ConfigurableMethodTerminal ConfiguredValue="-100">
@@ -82,7 +82,7 @@
                     </ConfigurableWaitFor>
                     <Wire Id="w4" Joints="N(n2:SequenceOut) N(n3:SequenceIn)" />
                     <ConfigurableMethodCall Id="n5" Bounds="342 41 101 91" Target="MoveStop\.vix">
-                        <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
+                        <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                             <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                         </ConfigurableMethodTerminal>
                         <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -110,7 +110,7 @@
                     </ConfigurableWaitFor>
                     <Wire Id="w8" Joints="N(n5:SequenceOut) N(n7:SequenceIn)" />
                     <ConfigurableMethodCall Id="n9" Bounds="544 41 194 91" Target="MoveDistanceRotations\.vix">
-                        <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
+                        <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                             <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                         </ConfigurableMethodTerminal>
                         <ConfigurableMethodTerminal ConfiguredValue="0">
