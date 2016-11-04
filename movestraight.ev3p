@@ -13,7 +13,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w3" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="52 33 18 18" />
                 </StartBlock>
                 <ConfigurableMethodCall Id="n3" Bounds="106 14 194 91" Target="MoveDistance\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
+                    <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
