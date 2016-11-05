@@ -13,10 +13,10 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w5" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="52 33 18 18" />
                 </StartBlock>
                 <ConfigurableMethodCall Id="n2" Bounds="145 0 132 91" Target="Stay_Straight_cm\.ev3p">
-                    <ConfigurableMethodTerminal ConfiguredValue="20">
+                    <ConfigurableMethodTerminal ConfiguredValue="50">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="10">
+                    <ConfigurableMethodTerminal ConfiguredValue="30">
                         <Terminal Id="cm" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
