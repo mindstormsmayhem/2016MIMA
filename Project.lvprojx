@@ -12,11 +12,8 @@
                 <SourceFileReference StoragePath="DP.ev3p" RelativeStoragePath="DP.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DP\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="FEEDING.ev3p" RelativeStoragePath="FEEDING.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="FEEDING\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="Food.ev3p" RelativeStoragePath="Food.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Food\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
-                <SourceFileReference StoragePath="Forward onto glory.ev3p" RelativeStoragePath="Forward onto glory.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Forward\ onto\ glory\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
+                <SourceFileReference StoragePath="Gyro Move cm Test.ev3p" RelativeStoragePath="Gyro Move cm Test.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Gyro\ Move\ cm\ Test\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="Gyro test.ev3p" RelativeStoragePath="Gyro test.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Gyro\ test\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
-                <SourceFileReference StoragePath="GyroVeer.ev3p" RelativeStoragePath="GyroVeer.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GyroVeer\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
-                <SourceFileReference StoragePath="Joshua stay straight.ev3p" RelativeStoragePath="Joshua stay straight.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Joshua\ stay\ straight\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
-                <SourceFileReference StoragePath="Joshua test.ev3p" RelativeStoragePath="Joshua test.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Joshua\ test\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="Measure cm per 1000 deg.ev3p" RelativeStoragePath="Measure cm per 1000 deg.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Measure\ cm\ per\ 1000\ deg\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="Mission Chooser.ev3p" RelativeStoragePath="Mission Chooser.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Mission\ Chooser\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="movestraight.ev3p" RelativeStoragePath="movestraight.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="movestraight\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
@@ -88,6 +85,14 @@
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GoUntilColor\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="Gryo_Move_cm.ev3p" RelativeStoragePath="Gryo_Move_cm.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Gryo_Move_cm\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="Gryo_Move_cm\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="Gyro_Move.ev3p" RelativeStoragePath="Gyro_Move.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Gyro_Move\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="Gyro_Move\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <SourceFileReference StoragePath="GyroTest.ev3p" RelativeStoragePath="GyroTest.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GyroTest\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
@@ -350,6 +355,18 @@
     <Namespace Name="GoUntilColor\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>GoUntilColor.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="Gryo_Move_cm\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>Gryo_Move_cm.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="Gyro_Move\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>Gyro_Move.ev3p.mbxml</RelativeStoragePath>
             <StoragePath/>
         </ExternalFile>
     </Namespace>
