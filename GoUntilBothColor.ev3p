@@ -157,7 +157,7 @@
                                     </ConfigurableMethodCall>
                                     <Wire Id="w4" Joints="N(Output:SequenceTerminal) N(n74:SequenceIn)" />
                                     <ConfigurableMethodCall Id="n6" Bounds="119 42 101 91" Target="MotorStop\.vix">
-                                        <ConfigurableMethodTerminal ConfiguredValue="1.B">
+                                        <ConfigurableMethodTerminal ConfiguredValue="1.A">
                                             <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                                         </ConfigurableMethodTerminal>
                                         <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -171,7 +171,7 @@
                                     </ConfigurableMethodCall>
                                     <Wire Id="w6" Joints="N(n74:SequenceOut) N(n6:SequenceIn)" />
                                     <ConfigurableMethodCall Id="n8" Bounds="220 42 101 91" Target="MotorUnlimited\.vix">
-                                        <ConfigurableMethodTerminal ConfiguredValue="1.C">
+                                        <ConfigurableMethodTerminal ConfiguredValue="1.D">
                                             <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                                         </ConfigurableMethodTerminal>
                                         <ConfigurableMethodTerminal ConfiguredValue="75">
@@ -289,7 +289,7 @@
                                         <Terminal Id="SequenceOut" Direction="Output" Wire="w14" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                                     </ConfigurableMethodCall>
                                     <ConfigurableMethodCall Id="n13" Bounds="119 42 101 91" Target="MotorStop\.vix">
-                                        <ConfigurableMethodTerminal ConfiguredValue="1.C">
+                                        <ConfigurableMethodTerminal ConfiguredValue="1.D">
                                             <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                                         </ConfigurableMethodTerminal>
                                         <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -304,7 +304,7 @@
                                     <Wire Id="w14" Joints="N(n12:SequenceOut) N(n13:SequenceIn)" />
                                     <Wire Id="w6" Joints="N(Output:SequenceTerminal) N(n12:SequenceIn)" />
                                     <ConfigurableMethodCall Id="n8" Bounds="220 42 101 91" Target="MotorUnlimited\.vix">
-                                        <ConfigurableMethodTerminal ConfiguredValue="1.B">
+                                        <ConfigurableMethodTerminal ConfiguredValue="1.A">
                                             <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                                         </ConfigurableMethodTerminal>
                                         <ConfigurableMethodTerminal ConfiguredValue="75">
@@ -434,7 +434,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="1">
                         <Terminal Id="X" Direction="Input" Wire="w22" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="-1">
+                    <ConfigurableMethodTerminal ConfiguredValue="1">
                         <Terminal Id="Y" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal>
@@ -443,7 +443,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w23" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w26" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <Wire Id="w28" Joints="N(n25:Result) v(159) h(1731) N(b40:n64) B(0) v(151) h(1027) N(b35:n64) B(0) v(22) h(334) N(n63:Speed)" />
+                <Wire Id="w28" Joints="N(n25:Result) v(22) h(334) N(n63:Speed) B(0) v(151) h(1027) N(b35:n64) B(0) v(159) h(1731) N(b40:n64)" />
                 <Wire Id="w26" Joints="N(n25:SequenceOut) N(n69:SequenceIn)" />
                 <ConfigurableMegaAccessor Id="n24" Bounds="-29 559 80 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Input">
                     <ConfigurableMethodTerminal>
@@ -454,7 +454,7 @@
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
                 <Wire Id="w22" Joints="N(n24:Speed) v(22) h(282) N(n25:X)" />
-                <Wire Id="w24" Joints="N(n24:Color) v(175) h(1729) N(b37:n64) B(0) v(167) h(1025) N(b34:n64)" />
+                <Wire Id="w24" Joints="N(n24:Color) v(167) h(1025) N(b34:n64) B(0) v(175) h(1729) N(b37:n64)" />
                 <Wire Id="w23" Joints="N(n1:SequenceOut) N(n25:SequenceIn)" />
                 <Comment Bounds="156 510 213 41" SizeMode="User" AttachStyle="Free">
                     <Content>Make speed negative because motors are upside-down</Content>
