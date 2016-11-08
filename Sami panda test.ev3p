@@ -138,7 +138,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w35" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w36" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableWaitFor>
-                <ConfigurableMethodCall Id="n50" Bounds="-103 100 163 91" Target="Gryo_Move_cm\.ev3p">
+                <ConfigurableMethodCall Id="n50" Bounds="-103 100 163 91" Target="GryoMoveCm\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Bias" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -154,7 +154,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w49" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w35" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <ConfigurableMethodCall Id="n51" Bounds="486 392 163 91" Target="Gryo_Move_cm\.ev3p">
+                <ConfigurableMethodCall Id="n51" Bounds="486 392 163 91" Target="GryoMoveCm\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Bias" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -189,7 +189,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w49" Joints="N(n48:SequenceOut) N(n50:SequenceIn)" />
-                <ConfigurableMethodCall Id="n53" Bounds="-471 -15 163 91" Target="Gryo_Move_cm\.ev3p">
+                <ConfigurableMethodCall Id="n53" Bounds="-471 -15 163 91" Target="GryoMoveCm\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Bias" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -207,7 +207,7 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w58" Joints="N(n53:SequenceOut) N(n25:SequenceIn)" />
                 <Wire Id="w48" Joints="N(n46:SequenceOut) N(n54:SequenceIn)" />
-                <ConfigurableMethodCall Id="n54" Bounds="324 100 163 91" Target="Gryo_Move_cm\.ev3p">
+                <ConfigurableMethodCall Id="n54" Bounds="324 100 163 91" Target="GryoMoveCm\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Bias" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -257,7 +257,7 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w31" Joints="N(n32:SequenceOut) h(517) v(57) h(-1085) v(58) N(n28:SequenceIn)" />
                 <Wire Id="w32" Joints="N(n54:SequenceOut) h(10) v(53) h(-1052) v(56) N(n55:SequenceIn)" />
-                <ConfigurableMethodCall Id="n33" Bounds="-368 209 163 91" Target="Gryo_Move_cm\.ev3p">
+                <ConfigurableMethodCall Id="n33" Bounds="-368 209 163 91" Target="GryoMoveCm\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Bias" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>

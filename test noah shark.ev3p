@@ -36,7 +36,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w14" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w59" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <ConfigurableMethodCall Id="n13" Bounds="-2 164 132 91" Target="Stay_Straight_cm\.ev3p">
+                <ConfigurableMethodCall Id="n13" Bounds="-2 164 132 91" Target="StayStraightCm\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="20">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -49,7 +49,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w63" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w24" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="114 33 18 18" />
                 </ConfigurableMethodCall>
-                <ConfigurableMethodCall Id="n14" Bounds="363 164 132 91" Target="Stay_Straight_cm\.ev3p">
+                <ConfigurableMethodCall Id="n14" Bounds="363 164 132 91" Target="StayStraightCm\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="20">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -77,7 +77,7 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w24" Joints="N(n13:SequenceOut) N(n23:SequenceIn)" />
                 <Wire Id="w14" Joints="N(n14:SequenceOut) N(n12:SequenceIn)" />
-                <ConfigurableMethodCall Id="n15" Bounds="658 164 132 91" Target="Stay_Straight_cm\.ev3p">
+                <ConfigurableMethodCall Id="n15" Bounds="658 164 132 91" Target="StayStraightCm\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="10">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -196,7 +196,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w31" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w29" Joints="N(n26:SequenceOut) N(n32:SequenceIn)" />
-                <ConfigurableMethodCall Id="n30" Bounds="1016 325 132 91" Target="Stay_Straight_cm\.ev3p">
+                <ConfigurableMethodCall Id="n30" Bounds="1016 325 132 91" Target="StayStraightCm\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="50">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
