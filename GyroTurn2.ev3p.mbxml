@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_052_Gyro">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description>Turns using the gyro. right is 1 and left is -1</Description>
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="turn deg" DisplayName="turn deg" Direction="Input" Identification="Identification_278_MotorRotation.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="Right or left. 1 or -1" DisplayName="Right or left. 1 or -1" Direction="Input" Identification="Identification_028_Width.png" DataType="Single" DefaultValue="0" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>

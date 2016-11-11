@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_074_Math">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description>Convert centimeters into robot degrees</Description>
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="Distance (cm)" DisplayName="Distance (cm)" Direction="Input" Identification="Identification_052_DistanceCM.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="Robot degrees" DisplayName="Robot degrees" Direction="Output" Identification="Identification_296_DegreesAngle_Minus360.png" DataType="Single" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
