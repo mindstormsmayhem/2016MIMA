@@ -281,7 +281,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w28" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w27" Joints="N(n24:SequenceOut) N(n27:SequenceIn)" />
-                <Wire Id="w28" Joints="N(n27:SequenceOut) N(n10:SequenceIn) B(0) h(27) v(96) N(n11:SequenceIn)" />
+                <Wire Id="w28" Joints="N(n27:SequenceOut) h(27) v(96) N(n11:SequenceIn) B(0) N(n10:SequenceIn)" />
                 <Wire Id="w29" Joints="N(n23:SequenceOut) N(n17:SequenceIn)" />
                 <ConfigurableMethodCall Id="n36" Bounds="-39 215 163 91" Target="GoCentimeters\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="50">
@@ -299,7 +299,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w36" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w34" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <Wire Id="w34" Joints="N(n36:SequenceOut) N(n29:SequenceIn) B(0) h(31) v(94) N(n33:SequenceIn)" />
+                <Wire Id="w34" Joints="N(n36:SequenceOut) h(31) v(94) N(n33:SequenceIn) B(0) N(n29:SequenceIn)" />
                 <Wire Id="w36" Joints="N(n17:SequenceOut) h(10) v(163) h(-928) v(52) N(n36:SequenceIn)" />
                 <ConfigurableMethodCall Id="n37" Bounds="498 215 163 91" Target="GoCentimeters\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="-20">
@@ -347,6 +347,12 @@
                 <Wire Id="w39" Joints="N(n35:SequenceOut) N(n39:SequenceIn)" />
                 <Wire Id="w40" Joints="N(n39:SequenceOut) N(n37:SequenceIn)" />
                 <Wire Id="w41" Joints="N(n38:SequenceOut) h(10) v(152) h(-999) v(86) N(n26:SequenceIn)" />
+                <Comment Bounds="-264 -102 100 80" SizeMode="User" AttachStyle="Free">
+                    <Content></Content>
+                </Comment>
+                <Comment Bounds="-264 -102 100 80" SizeMode="User" AttachStyle="Free">
+                    <Content></Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
