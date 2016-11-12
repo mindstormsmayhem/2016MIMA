@@ -118,7 +118,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w17" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="176 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w15" Joints="N(n35:SequenceOut) N(n14:SequenceIn)" />
-                <ConfigurableMethodCall Id="n16" Bounds="190 88 163 91" Target="MotorDistanceRotations\.vix">
+                <ConfigurableMethodCall Id="n16" Bounds="192 88 163 91" Target="MotorDistanceRotations\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1.C">
                         <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
