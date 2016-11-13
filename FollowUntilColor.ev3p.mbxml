@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_051_ColorSensor">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description>Follow line until color</Description>
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="Right sensor?" DisplayName="Right sensor?" Direction="Input" Identification="Identification_007_SensorPort_3.png" DataType="Boolean" DefaultValue="True" />
+        <ParamInfo Name="Right side?" DisplayName="Right side?" Direction="Input" Identification="Identification_028_Width.png" DataType="Boolean" DefaultValue="True" />
+        <ParamInfo Name="Color" DisplayName="Color" Direction="Input" Identification="Identification_501_MeasuredColor.png" DataType="Single[]" DefaultValue="[1]" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
