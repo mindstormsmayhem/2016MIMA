@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EditorDefinitions>
   <PolyGroups>
-    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_020_MediumMotor">
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_052_Gyro">
       <Block>
         <Mode>MyBlock</Mode>
         <Description>Resets the Gyro sensor</Description>
