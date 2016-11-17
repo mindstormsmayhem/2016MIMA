@@ -5,7 +5,7 @@
             <Slides>
                 <Slide GuidedHelpSize="SmallVertical" SlideName="" NextButtonEnabled="True" OnSlideChanged="" Signature="MzsamCCcYhOpgwycFAeALbdt9PiJfawWU9RA7epr0zjnd3EscZk0AOl0IhEYMu3yH2mpxu0DeXQes8/bV3EjjQ==" TemplateID="Full">
                     <SimpleData UniqueID="RichTextTitle" Version="0" UserEditable="False" WideControl="False">
-                        <Text><RichTextDocument fontsize="14" fontfamily="Verdana" xmlns="http://www.ni.com/ActivityRichTextDocument.xsd"><p><b></b></p></RichTextDocument></Text>
+                        <Text><RichTextDocument fontsize="12" fontfamily="Verdana" xmlns="http://www.ni.com/ActivityRichTextDocument.xsd"><p /></RichTextDocument></Text>
                     </SimpleData>
                     <SimpleData UniqueID="Media" Version="0" />
                     <Children>
