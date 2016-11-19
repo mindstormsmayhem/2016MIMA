@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_091_Datalogging">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description>Go to the spinner, go directly to the spinner, do not deliver the pig, do not collect 6 points</Description>
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
