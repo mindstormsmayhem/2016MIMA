@@ -443,9 +443,9 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w23" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w26" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <Wire Id="w28" Joints="N(n25:Result) v(22) h(334) N(n63:Speed) B(0) v(151) h(1027) N(b35:n64) B(0) v(159) h(1731) N(b40:n64)" />
+                <Wire Id="w28" Joints="N(n25:Result) v(159) h(1731) N(b40:n64) B(0) v(151) h(1027) N(b35:n64) B(0) v(22) h(334) N(n63:Speed)" />
                 <Wire Id="w26" Joints="N(n25:SequenceOut) N(n69:SequenceIn)" />
-                <ConfigurableMegaAccessor Id="n24" Bounds="-29 559 80 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Input">
+                <ConfigurableMegaAccessor Id="n24" Bounds="49 559 80 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Input">
                     <ConfigurableMethodTerminal>
                         <Terminal Id="Speed" Direction="Output" Wire="w22" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -453,8 +453,8 @@
                         <Terminal Id="Color" Direction="Output" Wire="w24" DataType="Single[]" Hotspot="0.5 1" Bounds="41 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
-                <Wire Id="w22" Joints="N(n24:Speed) v(22) h(282) N(n25:X)" />
-                <Wire Id="w24" Joints="N(n24:Color) v(167) h(1025) N(b34:n64) B(0) v(175) h(1729) N(b37:n64)" />
+                <Wire Id="w22" Joints="N(n24:Speed) v(22) h(204) N(n25:X)" />
+                <Wire Id="w24" Joints="N(n24:Color) v(175) h(1651) N(b37:n64) B(0) v(167) h(947) N(b34:n64)" />
                 <Wire Id="w23" Joints="N(n1:SequenceOut) N(n25:SequenceIn)" />
                 <Comment Bounds="156 510 213 41" SizeMode="User" AttachStyle="Free">
                     <Content>Make speed negative because motors are upside-down</Content>

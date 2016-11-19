@@ -19,10 +19,10 @@
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Bias" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="100">
+                    <ConfigurableMethodTerminal ConfiguredValue="50">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="23">
+                    <ConfigurableMethodTerminal ConfiguredValue="23.5">
                         <Terminal Id="cm" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -57,6 +57,12 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w7" Joints="N(n6:SequenceOut) N(n2:SequenceIn)" />
                 <Wire Id="w8" Joints="N(n1:SequenceOut) N(n6:SequenceIn)" />
+                <Comment Bounds="142 -40 179 35" SizeMode="User" AttachStyle="Free">
+                    <Content>goes foward delivers food </Content>
+                </Comment>
+                <Comment Bounds="347 -40 126 36" SizeMode="User" AttachStyle="Free">
+                    <Content>goes back to base </Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>

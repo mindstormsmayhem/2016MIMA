@@ -15,7 +15,7 @@
                     </ConfigurableMethodTerminal>
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w12" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="52 33 18 18" />
                 </StartBlock>
-                <ConfigurableMethodCall Id="n8" Bounds="358 103 163 91" Target="MotorDistance\.vix">
+                <ConfigurableMethodCall Id="n8" Bounds="359 99 163 91" Target="MotorDistance\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1.C">
                         <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
@@ -90,9 +90,18 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w11" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w10" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <Wire Id="w11" Joints="N(n14:SequenceOut) N(n11:SequenceIn) B(0) h(20) v(102) N(n8:SequenceIn)" />
+                <Wire Id="w11" Joints="N(n14:SequenceOut) N(n11:SequenceIn) B(0) h(20) v(98) N(n8:SequenceIn)" />
                 <Wire Id="w10" Joints="N(n11:SequenceOut) N(n10:SequenceIn)" />
                 <Wire Id="w12" Joints="N(n1:SequenceOut) N(n13:SequenceIn)" />
+                <Comment Bounds="189 -47 122 43" SizeMode="User" AttachStyle="Free">
+                    <Content>drives backwards to teeter totter</Content>
+                </Comment>
+                <Comment Bounds="390 -63 100 59" SizeMode="User" AttachStyle="Free">
+                    <Content>pushes cart to tipping point</Content>
+                </Comment>
+                <Comment Bounds="544 -33 132 30" SizeMode="User" AttachStyle="Free">
+                    <Content>goes back to base </Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>

@@ -54,7 +54,7 @@
                             <ConfigurableMethodTerminal>
                                 <Terminal Id="Angle" Direction="Output" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                             </ConfigurableMethodTerminal>
-                            <Terminal Id="SequenceIn" Direction="Input" Wire="w35" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
+                            <Terminal Id="SequenceIn" Direction="Input" Wire="w38" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                             <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 0 0" />
                         </ConfigurableMethodCall>
                     </ConfigurableWhileLoop.BuiltInMethod>
@@ -141,7 +141,7 @@
                                 <Terminal Id="SequenceTerminal" Direction="Output" Wire="w26" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 18 18" />
                             </SequenceNode>
                             <SequenceNode Id="Input" Bounds="893 93 18 18">
-                                <Terminal Id="SequenceTerminal" Direction="Input" Wire="w25" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
+                                <Terminal Id="SequenceTerminal" Direction="Input" Wire="w32" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
                             </SequenceNode>
                             <ConfigurableMethodCall Id="n18" Bounds="18 60 163 91" Target="Arithmetic_Multiply\.vix">
                                 <ConfigurableMethodTerminal ConfiguredValue="1">
@@ -191,7 +191,7 @@
                                 <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 0 0" />
                             </PairedConfigurableMethodCall>
                             <ConfigurableCaseStructure Id="n26" Bounds="662 14 231 176" DataType="Boolean" UserSelectorBounds="0 0 0 0" Selected="D27" Default="D27" PairedConfigurableMethodCall="n29">
-                                <Terminal Id="SequenceOut" Direction="Output" Wire="w25" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="213 79 18 18" />
+                                <Terminal Id="SequenceOut" Direction="Output" Wire="w32" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="213 79 18 18" />
                                 <ConfigurableCaseStructure.Case Id="D27" Bounds="10 4 211 169" Pattern="True">
                                     <SequenceNode Id="Output" Bounds="0 75 18 18">
                                         <Terminal Id="SequenceTerminal" Direction="Output" Wire="w9" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 18 18" />
@@ -245,9 +245,15 @@
                             <Wire Id="w33" Joints="N(n45:Result) v(30) h(202) N(n23:x)" />
                             <Wire Id="w34" Joints="N(n14:SequenceOut) N(n23:SequenceIn)" />
                             <Wire Id="w26" Joints="N(Output:SequenceTerminal) N(n18:SequenceIn)" />
-                            <Wire Id="w25" Joints="N(n26:SequenceOut) N(Input:SequenceTerminal)" />
                             <Wire Id="w27" Joints="N(n18:SequenceOut) N(n45:SequenceIn)" />
                             <Wire Id="w29" Joints="N(b37:D22) N(n18:X)" />
+                            <Comment Bounds="26 16 155 34" SizeMode="User" AttachStyle="Free">
+                                <Content>Ramp down speed</Content>
+                            </Comment>
+                            <Comment Bounds="188 16 366 34" SizeMode="User" AttachStyle="Free">
+                                <Content>Ensure a minimum speed</Content>
+                            </Comment>
+                            <Wire Id="w32" Joints="N(n26:SequenceOut) N(Input:SequenceTerminal)" />
                         </ConfigurableCaseStructure.Case>
                         <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b31" Terminals="n21=w22, D21, D22=w9" Bounds="114 218 30 63" />
                         <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b43" Terminals="n21=w54, D21=w7, D22=w24" Bounds="799 218 30 63" />
@@ -270,13 +276,22 @@
                             <Terminal Id="InterruptsToListenFor_16B03592_CD76_4D58_8DC3_E3C3091E327A" Direction="Input" DataType="Int32" Hotspot="0.5 1" Bounds="0 0 0 0" />
                         </ConfigurableMethodTerminal>
                         <Terminal Id="SequenceIn" Direction="Input" Wire="w51" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
-                        <Terminal Id="SequenceOut" Direction="Output" Wire="w35" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="114 33 18 18" />
+                        <Terminal Id="SequenceOut" Direction="Output" Wire="w38" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="114 33 18 18" />
                     </ConfigurableMethodCall>
-                    <Wire Id="w54" Joints="N(b43:n21) v(22) h(226) N(n48:Speed)" />
+                    <Wire Id="w54" Joints="N(b43:n21) v(1) h(226) N(n48:Speed)" />
                     <Wire Id="w51" Joints="N(n21:SequenceOut) N(n48:SequenceIn)" />
                     <Wire Id="w42" Joints="N(b49:d0) N(n48:MotorPort)" />
-                    <Wire Id="w35" Joints="N(n48:SequenceOut) N(n1:SequenceIn)" />
                     <Wire Id="w37" Joints="N(b38:d0) N(b37:n21)" />
+                    <Comment Bounds="53 56 254 34" SizeMode="User" AttachStyle="Free">
+                        <Content>Calculate how far we have left to go</Content>
+                    </Comment>
+                    <Comment Bounds="317 56 315 34" SizeMode="User" AttachStyle="Free">
+                        <Content>Calculate percent of ramp down, max at 100%</Content>
+                    </Comment>
+                    <Comment Bounds="1668 43 118 49" SizeMode="User" AttachStyle="Free">
+                        <Content>Set motor to selected speed</Content>
+                    </Comment>
+                    <Wire Id="w38" Joints="N(n48:SequenceOut) N(n1:SequenceIn)" />
                     <ConfigurableWhileLoop.ConfigurableLoopTunnel AutoIndex="False" Id="b40" Terminals="n12=w34, d0=w47" Bounds="1865 342 30 63" />
                     <ConfigurableWhileLoop.ConfigurableLoopTunnel AutoIndex="False" Id="b41" Terminals="n12=w39, d0=w44" Bounds="218 342 30 63" />
                     <ConfigurableWhileLoop.ConfigurableLoopTunnel AutoIndex="False" Id="b44" Terminals="n12=w43, d0=w48" Bounds="412 342 30 63" />
@@ -284,7 +299,7 @@
                     <ConfigurableWhileLoop.ConfigurableLoopTunnel AutoIndex="False" Id="b49" Terminals="n12=w50, d0=w42" Bounds="1733 342 30 63" />
                     <ConfigurableWhileLoop.ConfigurableLoopTunnel AutoIndex="False" Id="b38" Terminals="n12=w45, d0=w37" Bounds="821 342 30 63" />
                 </ConfigurableWhileLoop>
-                <ConfigurableCaseStructure Id="n29" Bounds="881 2 631 176" DataType="Boolean" UserSelectorBounds="0 0 0 0" Selected="D30" Default="D30" PairedConfigurableMethodCall="n32">
+                <ConfigurableCaseStructure Id="n29" Bounds="881 2 631 176" DataType="Boolean" UserSelectorBounds="0 0 0 0" Selected="D31" Default="D30" PairedConfigurableMethodCall="n32">
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w41" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="613 79 18 18" />
                     <ConfigurableCaseStructure.Case Id="D30" Bounds="10 4 611 169" Pattern="True">
                         <SequenceNode Id="Output" Bounds="0 75 18 18">
@@ -476,6 +491,12 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w41" Joints="N(n29:SequenceOut) N(n38:SequenceIn)" />
                 <Wire Id="w44" Joints="N(n38:SequenceOut) N(n12:SequenceIn)" />
+                <Comment Bounds="638 -13 153 57" SizeMode="User" AttachStyle="Free">
+                    <Content>We still overshoot by a tiny bit due to lag in gyro calculations</Content>
+                </Comment>
+                <Comment Bounds="911 -107 581 32" SizeMode="User" AttachStyle="Free">
+                    <Content>Adjustments when turning left</Content>
+                </Comment>
             </BlockDiagram>
             <Icon>
                 <Model0:IconPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Model0="clr-namespace:NationalInstruments.LabVIEW.VI.Design;assembly=NationalInstruments.LabVIEW.VI.SourceModel" xmlns:fpruntime="clr-namespace:NationalInstruments.LabVIEW.FrontPanelRuntime;assembly=NationalInstruments.LabVIEW.FrontPanelRuntime" xmlns:ation="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Height="84" Width="56">

@@ -70,6 +70,9 @@
                 <Wire Id="w16" Joints="N(n14:Distance\ \(cm\)) v(30) h(546) N(n13:Y)" />
                 <Wire Id="w17" Joints="N(n13:Result) v(22) h(81) N(n15:Robot\ degrees)" />
                 <Wire Id="w13" Joints="N(n1:SequenceOut) N(n10:SequenceIn)" />
+                <Comment Bounds="580 -47 307 37" SizeMode="User" AttachStyle="Free">
+                    <Content>Converts Cm to deg </Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
