@@ -161,7 +161,7 @@
                     <Wire Id="w21" Joints="N(n20:Result) v(22) h(425) N(n14:Speed\ Left)" />
                     <Wire Id="w22" Joints="N(n24:Result) v(30) h(132) N(n14:Speed\ Right)" />
                     <Wire Id="w24" Joints="N(b22:d0) N(n7:X)" />
-                    <Wire Id="w25" Joints="N(n5:Result) v(22) h(132) N(n7:Y) B(0) v(30) h(458) N(n9:Y)" />
+                    <Wire Id="w25" Joints="N(n5:Result) v(30) h(458) N(n9:Y) B(0) v(22) h(132) N(n7:Y)" />
                     <Wire Id="w26" Joints="N(n7:Result) v(22) h(103) N(n20:X)" />
                     <Wire Id="w29" Joints="N(b26:d0) N(n20:Y)" />
                     <Wire Id="w31" Joints="N(b28:d0) N(n9:X)" />
@@ -190,7 +190,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="False">
+                    <ConfigurableMethodTerminal ConfiguredValue="True">
                         <Terminal Id="Brake\ At\ End" Direction="Input" DataType="Boolean" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -211,10 +211,10 @@
                         <Terminal Id="Bias" Direction="Output" Wire="w17" DataType="Single" Hotspot="0.5 1" Bounds="72 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
-                <Wire Id="w19" Joints="N(n22:deg) v(22) h(357) N(n26:x) B(0) v(167) h(1978) N(b31:n18)" />
+                <Wire Id="w19" Joints="N(n22:deg) v(167) h(1978) N(b31:n18) B(0) v(22) h(357) N(n26:x)" />
                 <Wire Id="w21" Joints="N(n1:SequenceOut) N(n11:SequenceIn)" />
-                <Wire Id="w14" Joints="N(n22:Speed) v(135) h(1194) N(b22:n18) B(0) v(151) h(1520) N(b28:n18)" />
-                <Wire Id="w17" Joints="N(n22:Bias) v(143) h(1328) N(b26:n18) B(0) v(159) h(1652) N(b32:n18)" />
+                <Wire Id="w14" Joints="N(n22:Speed) v(151) h(1520) N(b28:n18) B(0) v(135) h(1194) N(b22:n18)" />
+                <Wire Id="w17" Joints="N(n22:Bias) v(159) h(1652) N(b32:n18) B(0) v(143) h(1328) N(b26:n18)" />
                 <ConfigurableCaseStructure Id="n25" Bounds="980 45 231 176" DataType="Boolean" UserSelectorBounds="0 0 0 0" Selected="D26" Default="D26" PairedConfigurableMethodCall="n28">
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w13" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="213 79 18 18" />
                     <ConfigurableCaseStructure.Case Id="D26" Bounds="10 4 211 169" Pattern="True">
