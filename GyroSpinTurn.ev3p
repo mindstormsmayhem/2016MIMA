@@ -136,9 +136,9 @@
                         <Terminal Id="Right\ or\ left\.\ 1\ or\ \-1" Direction="Output" Wire="w26" DataType="Single" Hotspot="0.5 1" Bounds="41 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
-                <Wire Id="w25" Joints="N(n18:Result) v(13) h(101) N(n16:X) B(0) v(30) h(264) N(n5:Speed\ Left)" />
+                <Wire Id="w25" Joints="N(n18:Result) v(30) h(264) N(n5:Speed\ Left) B(0) v(13) h(101) N(n16:X)" />
                 <Wire Id="w22" Joints="N(n16:Result) v(22) h(132) N(n5:Speed\ Right)" />
-                <Wire Id="w26" Joints="N(n27:Right\ or\ left\.\ 1\ or\ \-1) v(58) h(846) N(n18:Y) B(0) v(22) h(357) N(n26:Y) B(0) v(50) h(683) N(n30:Y)" />
+                <Wire Id="w26" Joints="N(n27:Right\ or\ left\.\ 1\ or\ \-1) v(50) h(683) N(n30:Y) B(0) v(22) h(357) N(n26:Y) B(0) v(58) h(846) N(n18:Y)" />
                 <Wire Id="w33" Joints="N(n1:SequenceOut) N(n38:SequenceIn)" />
                 <ConfigurableMethodCall Id="n26" Bounds="241 0 163 91" Target="Arithmetic_Subtract\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="4">
