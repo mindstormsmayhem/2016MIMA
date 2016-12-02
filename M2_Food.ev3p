@@ -81,7 +81,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w28" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
-                <Wire Id="w28" Joints="N(n9:SequenceOut) h(20) v(100) N(n13:SequenceIn) B(0) N(n11:SequenceIn)" />
+                <Wire Id="w28" Joints="N(n9:SequenceOut) N(n11:SequenceIn) B(0) h(20) v(100) N(n13:SequenceIn)" />
                 <ConfigurableMethodCall Id="n15" Bounds="295 272 101 91" Target="MoveStop\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1.A+D">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
@@ -147,7 +147,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="60">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="62">
+                    <ConfigurableMethodTerminal ConfiguredValue="64.5">
                         <Terminal Id="cm" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -183,7 +183,7 @@
                     <Content>goes to feeder </Content>
                 </Comment>
                 <Comment Bounds="684 -63 153 57" SizeMode="User" AttachStyle="Free">
-                    <Content>keeps robot on feeder by going fowerd slowly</Content>
+                    <Content>keeps robot on feeder by going forward slowly</Content>
                 </Comment>
                 <Comment Bounds="169 229 100 31" SizeMode="User" AttachStyle="Free">
                     <Content>gets food </Content>
