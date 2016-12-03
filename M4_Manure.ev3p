@@ -22,7 +22,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="100">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="110">
+                    <ConfigurableMethodTerminal ConfiguredValue="94">
                         <Terminal Id="Degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -89,7 +89,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w11" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w10" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <Wire Id="w11" Joints="N(n14:SequenceOut) h(20) v(103) N(n8:SequenceIn) B(0) N(n11:SequenceIn)" />
+                <Wire Id="w11" Joints="N(n14:SequenceOut) N(n11:SequenceIn) B(0) h(20) v(103) N(n8:SequenceIn)" />
                 <Wire Id="w10" Joints="N(n11:SequenceOut) N(n10:SequenceIn)" />
                 <Wire Id="w12" Joints="N(n1:SequenceOut) N(n13:SequenceIn)" />
                 <Comment Bounds="209 -66 122 43" SizeMode="User" AttachStyle="Free">
